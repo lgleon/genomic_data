@@ -1,7 +1,5 @@
 queue()
   .defer(d3.csv, 'data/ImmuGenomic.csv') //import data from file (what is exactly defer??
-  .defer(d3.csv, 'data/HumanRpkm100.csv')
-  .defer(d3.csv, 'data/MouseRpkm100.csv')
   .await(makeGraphs);
 
 var data = null;
@@ -112,7 +110,3 @@ function show_data_type(gen) {
 
 
 }
-
-
-var heatmapChart = dc.heatMap("#heatmapHuman");
-
