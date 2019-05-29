@@ -64,5 +64,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/h5bp/html5-boilerplate.git"
+  },
+  "dependencies": {
+    "plotly.js-dist": "^1.47.4"
   }
 }

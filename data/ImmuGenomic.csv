@@ -1,6 +1,6 @@
-,project,species,data_type,averg_reads,Annotation,QC,qc_number,length_reads
-1,TPLL,Human,RNA,14167423.69,10029070.85,good ,38.08692308,101
-2,TPLL_miR,Human,miR,2329022.273,147002.0058,medium  bad,37.45301887,46
+number,project,species,data_type,averg_reads,Annotation,QC,qc_number,length_reads
+1,TPLL,Human,RNA,14167423.69,10029070.85,good ,38,101
+2,TPLL_miR,Human,miR,2329022.273,147002.0058,medium  bad,37,46
 3,LGL,Human,RNA,45870497.19,76196993.25,good ,36,101
 4,LGL_miR,Human,miR,14458359.24,431474.8824,medium,39,46
 5,LVCM,Mouse,miR,28720654.78,1671007.135,medium,38,46
