@@ -16,7 +16,6 @@ function makeGraphs(error, genomicData) {
   })
 
 
-
   show_species_balance(gen);
   show_depth_reads(gen);
   show_annotation(gen);
@@ -24,7 +23,7 @@ function makeGraphs(error, genomicData) {
 
 
   dc.renderAll();
-}
+};
 
 
 var chart = null;
