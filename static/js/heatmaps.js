@@ -11,9 +11,9 @@ queue()
 
 var hs = null;
 var mm10 = null;
-var selection = null;
-var mapped = null;
-var subgroups = null;
+//var selection = null;
+//var mapped = null;
+//var subgroups = null;
 
 //color configuration for my heatmaps
 var colorscaleValue = [
