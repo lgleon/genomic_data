@@ -23,74 +23,80 @@
 
 </head>
 <body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Immunology Bioinformatics Lab</a>
+    </div>
+  </div>
+</nav>
 <main>
-</main>
-<section>
-  <!--<h1>Immunology Bioinformatics Lab</h1>
-  <h1>Genomic Data</h1>
-    <div id="species-selection"></div>
-	<div id="average_reads"></div>
-  <div id="Annotation"></div>
-  <div id="data_type"></div>
-  <div id="heatmapdiv-human"></div>
-  <div id="heatmapdiv-mouse"></div>-->
-  
   <section class="section">
     <div class="container">
       
       <div class="row">
-        <div class="col-xs-12 col-sm-6 text-center">
-          <p class="section-paragraph">Number of Humand and Mouse studies conducted in out lab</p>
-        </div>
-        <div class="col-xs-12 col-sm-6 text-center">
-          <p class="section-paragraph">Average depth for Human and Mouse stdies (miR, RNAs)</p>
+        <div class="col-xs-12 col-sm-12">
+          <h1 class="section-heading">Genomic Data</h1>
+          <div id="discipline-selector"></div>
         </div>
       </div>
+      <section class="section">
+        <div class="container">
+          
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 text-center">
+              <p class="section-paragraph">Number of Humand and Mouse studies conducted in out lab</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 text-center">
+              <p class="section-paragraph">Average depth for Human and Mouse stdies (miR, RNAs)</p>
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 text-center" id="species-selection" class="custom-chart"></div>
+            <div class="col-xs-12 col-sm-6 text-center" id="average_reads" class="custom-chart"></div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 text-center">
+              <p class="section-paragraph"> Average Annotation in Human and Mouse studies conducted in out lab</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 text-center">
+              <p class="section-paragraph">Type of analysis miRNAs or RNAseq</p>
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 text-center" id="Annotation" class="custom-chart"></div>
+            <div class="col-xs-12 col-sm-6 text-center" id="data_type" class="custom-chart"></div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 text-center">
+              <p class="section-paragraph">100 Genes most significantly diferenciate genes in Human Leukemia</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 text-center">
+              <p class="section-paragraph">100 most significantly diferenciate genes in Mouse Tcell exhaustion</p>
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 text-center" id="heatmapdiv-human" class="custom-chart"></div>
+            <div class="col-xs-12 col-sm-6 text-center" id="heatmapdiv-mouse" class="custom-chart"></div>
+          </div>
+        </div>
       
-      <div class="row">
-        <div class="col-xs-12 col-sm-6 text-center" id="species-selection" class="custom-chart"></div>
-        <div class="col-xs-12 col-sm-6 text-center" id="average_reads" class="custom-chart"></div>
-      </div>
+      </section>
     </div>
   </section>
-  <section class="section">
-    <div class="container">
-      
-      <div class="row">
-        <div class="col-xs-12 col-sm-6 text-center">
-          <p class="section-paragraph"> Average Annotation in Human and Mouse studies conducted in out lab</p>
-        </div>
-        <div class="col-xs-12 col-sm-6 text-center">
-          <p class="section-paragraph">Type of analysis miRNAs or RNAseq</p>
-        </div>
-      </div>
-      
-      <div class="row">
-        <div class="col-xs-12 col-sm-6 text-center" id="Annotation" class="custom-chart"></div>
-        <div class="col-xs-12 col-sm-6 text-center" id="data_type" class="custom-chart"></div>
-      </div>
-    </div>
-  </section>
-  <section class="section">
-    <div class="container">
-      
-      <div class="row">
-        <div class="col-xs-12 col-sm-6 text-center">
-          <p class="section-paragraph">100 Genes most significantly diferenciate genes in Human Leukemia</p>
-        </div>
-        <div class="col-xs-12 col-sm-6 text-center">
-          <p class="section-paragraph">100 most significantly diferenciate genes in Mouse Tcell exhaustion</p>
-        </div>
-      </div>
-      
-      <div class="row">
-        <div class="col-xs-12 col-sm-6 text-center" id="heatmapdiv-human" class="custom-chart"></div>
-        <div class="col-xs-12 col-sm-6 text-center" id="heatmapdiv-mouse" class="custom-chart"></div>
-      </div>
-    </div>
-  </section>
-</section>
-
 </main>
 </body>
 </html>
