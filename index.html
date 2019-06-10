@@ -36,23 +36,23 @@
     <div class="container">
       
       <div class="row">
-        <div class="col-xs-12 col-sm-12">
+        <div class="col-12 col-sm-12">
           <h1 class="section-heading"></h1>
-          <div id="discipline-selector">Genomic Data</div>
+          <div id="genomic-data">Genomic Data obtained from the Immunology Department at EMC:</div>
         </div>
       </div>
-      
+ <!--
       <div class="row">
-        <div class="col-xs-12 col-sm-12">
-          <p class="section-paragraph">Genomic data obtained using Human and Mouse samples:</p>
+        <div class="col-12 col-sm-12">
+          <p class="section-paragraph">Genomic data obtained from the Immunology Department at EMC:</p>
         </div>
         
-        <div class="col-xs-12 col-sm-6 col-lg-6">
+        <div class="col-12 col-sm-6 col-lg-6">
           <i class="fa fa-female fa-gender" aria-hidden="true"></i> <span class="number-box"
                                                                           id="percent-of-human-experiments"></span>
           <i class="fa fa-male fa-gender" aria-hidden="true"></i> <span class="number-box"
                                                                         id="percent-of-mouse-experiments"></span>
-        </div>
+        </div>-->
       </div>
     </div>
   </section>
@@ -60,45 +60,11 @@
     <div class="container">
       
       <div class="row">
-        <div class="col-xs-12 col-sm-12 text-center">
-          <p class="section-paragraph">Number of experiments separated by species</p>
+        <div class="col-2 col-sm-12">
+          <p class="section-paragraph">In our department, we work with two main genomic models, mouse to recreate human diseases like Tcell exhaustion or, directly genomic data from Patients enrolled in research studies. Here It is represent the number os experiment where we were using Human data or Mouse data.</p>
         </div>
         
-        <div class="col-xs-12 col-sm-12 text-center" id="species-selection">
-        
-        </div>
-      </div>
-    </div>
-  </section>
-  
-  <section class="section">
-    <div class="container">
-      
-      <div class="row">
-        <div class="col-xs-12 col-sm-4 text-center">
-          <p class="section-paragraph">RNAseq expriments have more average reads</p>
-        </div>
-        <div class="col-xs-12 col-sm-4 text-center">
-          <p class="section-paragraph">Annotation for human genes in better than mouse</p>
-        </div>
-      </div>
-      
-      <div class="row">
-        <div class="col-xs-12 col-sm-4 text-center" id="average_reads" class="custom-chart"></div>
-        <div class="col-xs-12 col-sm-4 text-center" id="Annotation" class="custom-chart"></div>
-      </div>
-    </div>
-  </section>
-  
-  <section class="section">
-    <div class="container">
-      
-      <div class="row">
-        <div class="col-xs-12 col-sm-12 text-center">
-          <p class="section-paragraph">Number of expriment for MiRNAs or RNAseq</p>
-        </div>
-        
-        <div class="col-xs-12 col-sm-12 text-center" id="data_type">
+        <div class="col-12 col-sm-12 text-center" id="species-selection">
         
         </div>
       </div>
@@ -109,8 +75,42 @@
     <div class="container">
       
       <div class="row">
-        <div class="col-xs-12 col-sm-12 text-center">
-          <p class="section-paragraph">Most important genes in RNAseq analysis fro Leukemia patients</p>
+        <div class="col-12 col-sm-6 text-center">
+          <p class="section-paragraph">Here we represent the experiments by study name, those studies where we are using RNAseq data have deeper coverage than those for miRNAs data.</p>
+        </div>
+        <div class="col-12 col-sm-6 text-center">
+          <p class="section-paragraph">Regarding the annotation process in this barchart is easy to see that studies in Human have better gene annotation than studies with Mouse data.</p>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-12 col-sm-7 text-center" id="average_reads" class="custom-chart"></div>
+        <div class="col-12 col-sm-4 text-center" id="Annotation" class="custom-chart"></div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="section">
+    <div class="container">
+      
+      <div class="row">
+        <div class="col-12 col-sm-12 ">
+          <p class="section-paragraph">In our department there are to main type of studies RNAseq data and miRNAs data analysis, here it si represent how many studies in did we perform in each data type.</p>
+        </div>
+        
+        <div class="col-12 col-sm-12 text-center" id="data_type">
+        
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="section">
+    <div class="container">
+      
+      <div class="row">
+        <div class="col-12 col-sm-12 text-center">
+          <p class="section-paragraph">In this heatmap we show the most variable genes in Leukemia patients when we compare them against normal Linf. in a RNAseq analysis.</p>
         </div>
         
         <div class="col-xs-12 col-sm-12 text-center" id="heatmapdiv-human"></div>
@@ -120,11 +120,11 @@
     <div class="container">
       
       <div class="row">
-        <div class="col-xs-12 col-sm-12 text-center">
-          <p class="section-paragraph">Mouse most important genes in exhaustion Tcell process</p>
+        <div class="col-12 col-sm-12 text-center">
+          <p class="section-paragraph">In this heatmap we represent the mos variable miRNAs during Tcell exhaustion, using a mouse model, where Mp is the group of cell expose to the Antigen for longer time, they have several over-expressed miRNA in comparison with the other two cell populations.</p>
         </div>
         
-        <div class="col-xs-12 col-sm-12 text-center" id="heatmapdiv-mouse"></div>
+        <div class="col-12 col-sm-12 text-center" id="heatmapdiv-mouse"></div>
       </div>
     
     </div>

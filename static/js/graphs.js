@@ -32,7 +32,7 @@ function show_species_balance(gen) {
   var group = dim.group();
 
   chart = dc.barChart('#species-selection')    //link to html element through id
-    .width(400)
+    .width (400)
     .height(300)
     .margins({top: 10, right: 50, bottom: 30, left: 50})
     .dimension(dim)
@@ -53,7 +53,7 @@ function show_depth_reads(gen) {
   //var group = dim.group().reduceSum(function(d) {return d.averg_reads;});
   var group = dim.group().reduceSum(dc.pluck('averg_reads'));
   dc.barChart('#average_reads')
-    .width(400)
+    .width(600)
     .height(300)
     .margins({top: 10, right: 50, bottom: 30, left: 50})
     .dimension(dim)
@@ -65,9 +65,7 @@ function show_depth_reads(gen) {
     .xAxisLabel('Reads Depth')
     .yAxis().ticks(20);
 
-
 }
-
 
 function show_annotation(gen) {
   var dim = gen.dimension(dc.pluck('species'));
@@ -76,7 +74,7 @@ function show_annotation(gen) {
   dc.barChart('#Annotation')
     .width(400)
     .height(300)
-    .margins({top: 10, right: 50, bottom: 30, left: 50})
+    .margins({top: 20, right: 50, bottom: 30, left: 50})
     .dimension(dim)
     .group(group)
     .transitionDuration(500)

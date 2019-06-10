@@ -3,19 +3,20 @@
 	background-image: none;
 	margin-bottom: 0;
 }
-
-.section-heading, #discipline-selector {
+/*
+.section-heading, #genomic-data {
 	display: inline-block;
 	float: none;
 	margin: 0;
 }
-
+*/
 .section-heading {
 	margin-bottom: 30px;
 }
 
-#discipline-selector {
-	margin-left: 15px;
+#genomic-data {
+	margin-left: 0;
+  font-size: larger;
 }
 
 .number-box {
