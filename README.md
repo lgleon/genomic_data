@@ -1,92 +1,102 @@
-# [HTML5 Boilerplate](https://html5boilerplate.com/)
 
-[![Build Status](https://travis-ci.org/h5bp/html5-boilerplate.svg)](https://travis-ci.org/h5bp/html5-boilerplate)
-[![devDependency Status](https://david-dm.org/h5bp/html5-boilerplate/dev-status.svg)](https://david-dm.org/h5bp/html5-boilerplate#info=devDependencies)
+# Bioinformatics Immunology EMC Website 
 
-HTML5 Boilerplate is a professional front-end template for building
-fast, robust, and adaptable web apps or sites.
+## Overview
 
-This project is the product of years of iterative development and
-community knowledge. It does not impose a specific development
-philosophy or framework, so you're free to architect your code in the
-way that you want.
+#### Why this website?
+This is the website of our research group. We work in bioinformatics 
+and we want to make our lab and work more public, we also aim
+get in contact with other groups and  eventually stablish new collaborations. 
+We also want to make our data more accessible and interactive to other people.
+ 
+ 
+#### UX
+In that case our intention was to make the interactive data as mobile-first responsive but, 
+it was not possible for some graphs to reduce more than certain size to be readable.
+ This website was designed thinking in other researcher which want to know a bit more about
+our group and our work and get in contact if they want to collaborate. In is not easy, in 
+The official EMC website find information of an small group, EMC web is also not aesthetic 
+to keep the interested of new collaborators.
 
-* Homepage: [https://html5boilerplate.com/](https://html5boilerplate.com/)
-* Source: [https://github.com/h5bp/html5-boilerplate](https://github.com/h5bp/html5-boilerplate)
-* Twitter: [@h5bp](https://twitter.com/h5bp)
-
-
-## Quick start
-
-Choose one of the following options:
-
-- Download the latest stable release from
-  [html5boilerplate.com](https://html5boilerplate.com/).
-- Clone the git repo — `git clone
-  https://github.com/h5bp/html5-boilerplate.git` - and checkout the
-  [tagged release](https://github.com/h5bp/html5-boilerplate/releases)
-  you'd like to use.
-- Install with [npm](https://www.npmjs.com/): `npm install html5-boilerplate` and pull in what you need from the resulting `node_modules/html5-boilerplate/dist`
-- Install with [yarn](https://yarnpkg.com/): `yarn add html5-boilerplate`
+I didn't use any computer wireframes or mockups, I did use paper wireframes, I took a picture 
+to include them here (assets/images/MilestoneOne_wireframe.jpeg)
 
 
-## Features
-
-* HTML5 ready. Use the new elements with confidence.
-* Designed with progressive enhancement in mind.
-* Includes:
-  * [`Normalize.css`](https://necolas.github.com/normalize.css/)
-    for CSS normalizations and common bug fixes
-  * [`jQuery`](https://jquery.com/) via CDN with [SRI Hash](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity) and a local fallback
-  * A custom build of [`Modernizr`](https://modernizr.com/) for feature
-    detection
-  * [`Apache Server Configs`](https://github.com/h5bp/server-configs-apache)
-    that, among other, improve the web site's performance and security
-* Placeholder CSS Media Queries.
-* Useful CSS helper classes.
-* Default print styles, performance optimized.
-* An optimized version of the Google Universal Analytics snippet.
-* Protection against any stray `console` statements causing JavaScript
-  errors in older browsers.
-* "Delete-key friendly." Easy to strip out parts you don't need.
-* Extensive inline and accompanying documentation.
+#### Features
+##### Existing Features
+The Contact form is working but it is not fully functional because, there is no real alert to 
+anyone within the team when someone submits the form.
 
 
-## Browser support
 
-* Chrome *(latest 2)*
-* Edge *(latest 2)*
-* Firefox *(latest 2)*
-* Internet Explorer 11
-* Opera *(latest 2)*
-* Safari *(latest 2)*
-
-*This doesn't mean that HTML5 Boilerplate cannot be used in older browsers,
-just that we'll ensure compatibility with the ones mentioned above.*
-
-If you need legacy browser support you can use [HTML5 Boilerplate v6](https://github.com/h5bp/html5-boilerplate/releases/tag/6.1.0) (IE9/IE10)
-or [HTML5 Boilerplate v5](https://github.com/h5bp/html5-boilerplate/releases/tag/5.3.0) (IE 8). They are no longer actively developed.
+##### Features Left to Implement
+The contact will be fully functional, and we will create a database to keep record of the
+possible collaborators.When we collaborate in more projects we will include them in the work and 
+project sections.
 
 
-## Documentation
-
-Take a look at the [documentation table of contents](dist/doc/TOC.md).
-This documentation is bundled with the project which makes it 
-available for offline reading and provides a useful starting point for
-any documentation you want to write about your project.
 
 
-## Contributing
+#### Technologies Used
 
-Hundreds of developers have helped to make the HTML5 Boilerplate. Anyone is welcome to [contribute](.github/CONTRIBUTING.md),
-however, if you decide to get involved, please take a moment to review
-the [guidelines](.github/CONTRIBUTING.md):
+- HTML5
+- CSS3
+- JavaScript
+- PyCharm IDE
+- Git
+- GitHub 
+Public repository for the project 
 
-* [Bug reports](.github/CONTRIBUTING.md#bugs)
-* [Feature requests](.github/CONTRIBUTING.md#features)
-* [Pull requests](.github/CONTRIBUTING.md#pull-requests)
+- Bootstrap
+To give our project a simple, responsive layout.
+
+-JQuery
+It is needed to have dynamic elements as the collapse button in the navbar
+
+-Javascript
+  - d3.js
+  - crossfilter
+  - dc.js
+  - plotly.js
+  - queue.js
 
 
-## License
 
-The code is available under the [MIT license](LICENSE.txt).
+
+#### Testing 
+ 
+All pages were tested locally and on GitHub using Chrome, Firefox or Safari developer 
+tools. The tests were mainly checking the responsiveness of all pages in different sizes, 
+using iPhone5/6/7/8/X, Galaxy android phones, iPad 1/2/3/Pro and desktop. All links were tested 
+along with the YouTube videos. The contact form was tested trying to submit the form empty or 
+incomplete to be sure that all requirements fields must be filled before submitting.  
+
+
+#### Deployment
+
+Website was coded using PyCharm, a local Git was used for version control and then 
+uploaded to GitHub using MacOX, well the Terminal window in PyCharm. Once in GitHub
+it was made live using GitHub pages. The Website can be found at:
+https://lgleon.github.io/MilestoneOne/
+
+
+
+
+#### Credits
+
+##### Content
+The content of the project is original from the project I am working on and 
+collaborating with other professionals in my department
+
+##### Media
+The photo for the home page was created as a logo for me from a friend, we did it 
+together I cut my name and add the background. The figures for the projects were generated 
+during the analysis of the data and they are originals.
+
+##### Acknowledgements
+
+I got Inspiration for this project looking into other website from bioinformatics Labs
+
+http://www.hammerlab.org/
+https://ccbc.erasmusmc.nl/
+https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/intelligent-systems/pattern-recognition-bioinformatics/the-delft-bioinformatics-lab/

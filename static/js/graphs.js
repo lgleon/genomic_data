@@ -30,6 +30,8 @@ var chart = null;
 function show_species_balance(gen) {
   var dim = gen.dimension(dc.pluck('species'));
   var group = dim.group();
+  var chart_color = d3.scale.ordinal()
+    .range(['#003791', '#107c10']);
 
   chart = dc.barChart('#species-selection')    //link to html element through id
     .width (400)
@@ -38,6 +40,10 @@ function show_species_balance(gen) {
     .dimension(dim)
     .group(group)
     .transitionDuration(500)
+    .colorAccessor(function(d) {
+      return d.key;
+    })
+    .colors(chart_color)
     .x(d3.scale.ordinal())
     .xUnits(dc.units.ordinal)
     .elasticY(true)
@@ -52,6 +58,10 @@ function show_depth_reads(gen) {
   //var dim = gen.dimension(function(d) {return d.project;});
   //var group = dim.group().reduceSum(function(d) {return d.averg_reads;});
   var group = dim.group().reduceSum(dc.pluck('averg_reads'));
+  var chart_color = d3.scale.ordinal()
+    .range(['blue', 'blue', 'red', 'red', 'grey', 'slateblue','brown','green', 'green', 'steelblue', 'orange']);
+
+
   dc.barChart('#average_reads')
     .width(600)
     .height(300)
@@ -59,6 +69,10 @@ function show_depth_reads(gen) {
     .dimension(dim)
     .group(group)
     .transitionDuration(500)
+    .colorAccessor(function(d) {
+      return d.key;
+    })
+    .colors(chart_color)
     .x(d3.scale.ordinal())
     .xUnits(dc.units.ordinal)
     .elasticY(true)
@@ -69,7 +83,9 @@ function show_depth_reads(gen) {
 
 function show_annotation(gen) {
   var dim = gen.dimension(dc.pluck('species'));
-  var group = dim.group().reduceSum(dc.pluck('Annotation'));;
+  var group = dim.group().reduceSum(dc.pluck('Annotation'));
+  var chart_color = d3.scale.ordinal()
+    .range(['#003791', '#107c10']);
 
   dc.barChart('#Annotation')
     .width(400)
@@ -78,6 +94,10 @@ function show_annotation(gen) {
     .dimension(dim)
     .group(group)
     .transitionDuration(500)
+    .colorAccessor(function(d) {
+      return d.key;
+    })
+    .colors(chart_color)
     .x(d3.scale.ordinal())
     .xUnits(dc.units.ordinal)
     .elasticY(true)
@@ -91,6 +111,8 @@ function show_annotation(gen) {
 function show_data_type(gen) {
   var dim = gen.dimension(dc.pluck('data_type'));
   var group = dim.group();
+  var chart_color = d3.scale.ordinal()
+    .range(['steelblue', 'rgba(198, 45, 205, 0.8)' ]);
 
   dc.barChart('#data_type')
     .width(400)
@@ -99,6 +121,10 @@ function show_data_type(gen) {
     .dimension(dim)
     .group(group)
     .transitionDuration(500)
+    .colorAccessor(function(d) {
+      return d.key;
+    })
+    .colors(chart_color)
     .x(d3.scale.ordinal())
     .xUnits(dc.units.ordinal)
     .elasticY(true)
