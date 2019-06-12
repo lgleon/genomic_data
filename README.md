@@ -154,11 +154,6 @@ tools. The tests were mainly checking the responsiveness of the pages and the ch
 
 ## Deployment
 
-Website was coded using PyCharm, a local Git was used for version control and then 
-uploaded to GitHub using MacOX, well the Terminal window in PyCharm. Once in GitHub
-it was made live using GitHub pages. The Website can be found at:
-https://lgleon.github.io/MilestoneOne/
-
 The project was built using [PyCharm](https://www.jetbrains.com/pycharm/), through a built-in function called 'Git', I could commit
 the project & push it up to [GitHub](https://github.com/).
 
