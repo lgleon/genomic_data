@@ -109,10 +109,14 @@ signature to be use in diagnose or a a model for other studies.
 
 This project uses HTML, CSS, JavaScript and various different technologies to work as 
 helpers to the languages.
-- HTML5
-- CSS3
-- JavaScript
-- PyCharm IDE
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+    - **HTML5** HyperText Markup Language.
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+    - **CSS3** Cascading Style Sheets.
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+    - **Javasript** is a high-level, interpreted programming language.
+- [PyCharm](https://www.jetbrains.com/pycharm/)
+    - **PyCharm** Is the IDE used to develop the website.
 - [GitHub](https://github.com/)
     - **Github** is used: 
     1. As a remote backup of code used in the project.
