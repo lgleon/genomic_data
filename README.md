@@ -210,6 +210,8 @@ A huge thank you to:
 - Spencer Barriball (Super_Spence_mentor) - For discussing ideas, providing help wherever needed also
 coaching and "dont give up you are doing great" moments.
 
+- Luis Rodil and David van Zessen for share ideas, show me where lo look and their patience.
+
 
 ## Disclaimer
 
